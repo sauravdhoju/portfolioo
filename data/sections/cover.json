@@ -1,0 +1,157 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "About Me",
+                "title_short_nav": "About Me",
+                "title_long_prefix": "Hello...",
+                "title_long": "I'm {{Saurav Dhoju}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleInlineList",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "display_as_list_if_width_is_lower_than": 380
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "label": "Bhaktapur, Nepal",
+                    "link": {"href": "", "tooltipString": ""},
+                    "faIcon": "fa-regular fa-address-book"
+                },
+                {
+                    "id": 2,
+                    "label": "sauravdhoju12@gmailcom",
+                    "link": {"href": "sauravdhoju12@gmailcom", "tooltipString": "email_me"},
+                    "faIcon": "fa-regular fa-envelope"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleText",
+            "locales": {
+                "en": {"title": "{{A little bit}} about me..."}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/about-texts-image-1.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a passionate {{UI/UX Designer}} and {{Frontend Developer}} with a strong focus on crafting intuitive, user-centered interfaces. My workflow bridges design and development, allowing me to bring ideas from wireframes to fully responsive web applications.</p><p>I specialize in tools like {{Figma}}, {{Adobe XD}}, and {{Sketch}} for design, and leverage {{React.js}}, {{TypeScript}}, and {{SCSS}} for pixel-perfect frontend development. I enjoy translating user needs into clean, functional, and accessible digital experiences.</p><p>I’m always excited to collaborate on creative projects that blend aesthetics with usability [[and deliver real impact!]]</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+        "id": 3,
+        "component": "ArticleInfoList",
+        "settings": {
+            "order_items_by": "id",
+            "order_items_sort": "asc"
+        },
+        "locales": {
+            "en": {"title": "Personal {{interests}}"},
+            "es": {"title": "Intereses {{personales}}"},
+            "fr": {"title": "Intérêts {{personnels}} "},
+            "ko": {"title": "개인 {{관심사}}"}
+        },
+        "items": [
+            {
+                "id": 1,
+                "faIcon": "fa-solid fa-window-restore",
+                "faIconColors": {"bg": "", "fill": ""},
+                "label": null,
+                "link": {"href": null, "tooltipString": null},
+                "locales": {
+                    "en": {
+                        "title": "{{UX}} design",
+                        "text": "Studying user experience principles."
+                    }
+                }
+            },
+            {
+                "id": 2,
+                "faIcon": "fa-solid fa-palette",
+                "faIconColors": {"bg": "", "fill": ""},
+                "label": null,
+                "link": {"href": null, "tooltipString": null},
+                "locales": {
+                    "en": {
+                        "title": "{{Arts}} & Illustration",
+                        "text": "Practicing digital art and exploring new styles."
+                    }
+                }
+            },
+            {
+                "id": 3,
+                "faIcon": "fa-solid fa-chart-line",
+                "faIconColors": {"bg": "", "fill": ""},
+                "label": null,
+                "link": {"href": null, "tooltipString": null},
+                "locales": {
+                    "en": {
+                        "title": "{{Investing}} & Finance",
+                        "text": "Learning the basics of stocks and personal finance."
+                    }
+                }
+            },
+            {
+                "id": 5,
+                "img": "",
+                "faIcon": "fa-solid fa-camera-retro",
+                "faIconColors": {"bg": "", "fill": ""},
+                "label": null,
+                "link": {"href": null, "tooltipString": null},
+                "locales": {
+                    "en": {
+                        "title": "{{Photography}} & Photoshop",
+                        "text": "Enhancing photos through creative editing techniques."
+                    }
+                }
+            },
+            {
+                "id": 4,
+                "faIcon": "fa-solid fa-code",
+                "faIconColors": {"bg": "", "fill": ""},
+                "label": null,
+                "link": {"href": null, "tooltipString": null},
+                "locales": {
+                    "en": {
+                        "title": "{{Coding}} & Development",
+                        "text": "Exploring new technologies and building projects."
+                    }
+                }
+            },
+            {
+                "id": 6,
+                "faIcon": "fa-solid fa-gamepad",
+                "faIconColors": {"bg": "", "fill": ""},
+                "label": null,
+                "link": {"href": null, "tooltipString": null},
+                "locales": {
+                    "en": {
+                        "title": "{{Gaming}} & Entertainment",
+                        "text": "Enjoying immersive gaming experiences and storytelling."
+                    }
+                }
+            }
+        ]
+    }
+    ]
+}

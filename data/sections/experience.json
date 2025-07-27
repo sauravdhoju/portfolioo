@@ -1,0 +1,125 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-users",
+                    "faIconColors": {
+                        "bg": "#2c3e50",
+                        "fill": "#ecf0f1"
+                    },
+                    "dateStart": {
+                        "year": 2022,
+                        "month": 6
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Student Representative",
+                            "province": "Liwali-08, Bhaktapur",
+                            "country": "Nepal",
+                            "institution": "Khwopa Engineering College",
+                            "text": "Selected as a student representative for the Department of Computer Engineering. Acted as a facilitator between students and faculty to address academic and welfare concerns, coordinated departmental events, and contributed to policy discussions that improved student life.",
+                            "list": [],
+                            "tags": [
+                                "Leadership",
+                                "Communication",
+                                "Student Advocacy"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "#2980b9",
+                        "fill": "#ecf0f1"
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 3,
+                        "day": 7
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 3,
+                        "day": 7
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Mentor – Robotics Competition",
+                            "province": "Bhaktapur",
+                            "country": "Nepal",
+                            "institution": "Khwopa Engineering College",
+                            "text": "Contributed as a mentor for a participating team in the Line Following Robot and Robostacle Run competition, held on 7 March 2024. The event was jointly conducted by Khwopa Engineering College, Khwopa College of Engineering, and Innov Nepal. Provided guidance on robot design, sensor integration, and programming logic to enhance performance and problem-solving during the competition.",
+                            "list": [],
+                            "tags": [
+                                "Mentorship",
+                                "Robotics",
+                                "Team Support",
+                                "Embedded Systems",
+                                "Problem Solving"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-flag",
+                    "faIconColors": {
+                        "bg": "#c0392b",
+                        "fill": "#ecf0f1"
+                    },
+                    "dateStart": {
+                        "year": 2021,
+                        "month": 1
+                    },
+                    "dateEnd": {
+                        "now": true
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "President – Nepal Krantikari Bidyarthi Sangh",
+                            "province": "Banshagopal, Ward No. 03",
+                            "country": "Nepal",
+                            "institution": "Nepal Krantikari Bidyarthi Sangh",
+                            "text": "Serving as the elected president of the local chapter, representing student voices and leading educational and social campaigns. Responsible for organizing awareness programs, advocating for student rights, and coordinating community events to promote youth engagement and education.",
+                            "list": [],
+                            "tags": [
+                                "Leadership",
+                                "Public Speaking",
+                                "Student Activism",
+                                "Community Engagement"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

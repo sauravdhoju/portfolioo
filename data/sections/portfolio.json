@@ -1,0 +1,473 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_apps": "Apps",
+                    "category_web": "Web",
+                    "category_utilities": "Utilities"
+                }
+            },
+            "settings": {
+                "categorize_by": [
+                    "category_apps",
+                    "category_web",
+                    "category_utilities"
+                ],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/sauravdhoju/PersonalPortfolio",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/Portfolio/2.png",
+                            "images/pictures/Portfolio/3.png",
+                            "images/pictures/Portfolio/4.png",
+                            "images/pictures/Portfolio/5.png",
+                            "images/pictures/Portfolio/6.png",
+                            "images/pictures/Portfolio/1.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Personal Portfolio",
+                            "text": "A <b>responsive portfolio website</b> built using <b>React</b>, <b>JavaScript</b>, and <b>CSS</b>. It showcases my projects, skills, and contact information in a clean, modern layout.",
+                            "tags": [
+                                "React",
+                                "JavaScript",
+                                "CSS"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-2.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/sauravdhoju/KamSter-TaskManagementSystem",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            },
+                            {
+                                "href": "https://www.figma.com/design/HFMNekjbEFnYWxX8FRrpi2/Kamster?node-id=148-551&t=AoJTjHo52UJWY8CK-1",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/KamSter/3.png",
+                            "images/pictures/KamSter/4.jpg",
+                            "images/pictures/KamSter/5.png",
+                            "images/pictures/KamSter/6.png",
+                            "images/pictures/KamSter/7.png",
+                            "images/pictures/KamSter/8.png",
+                            "images/pictures/KamSter/9.png",
+                            "images/pictures/KamSter/10.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "KamSter – Task Management System",
+                            "text": "A full-featured <b>task management webapp</b> built using <b>ReactJS with TypeScript</b>, <b>SCSS</b>, <b>NodeJS with Express</b>, and <b>MongoDB</b>. Designed in <b>Figma</b>, KamSter offers project organization, task tracking, and a clean modern UI.",
+                            "tags": [
+                                "ReactJS",
+                                "TypeScript",
+                                "SCSS",
+                                "NodeJS",
+                                "Express",
+                                "MongoDB",
+                                "Figma"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-2.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Asymptoads/MediQ",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/MediQ/1.png",
+                            "images/pictures/MediQ/2.png",
+                            "images/pictures/MediQ/3.png",
+                            "images/pictures/MediQ/9.png",
+                            "images/pictures/MediQ/4.png",
+                            "images/pictures/MediQ/5.png",
+                            "images/pictures/MediQ/6.png",
+                            "images/pictures/MediQ/7.png",
+                            "images/pictures/MediQ/8.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "MediQ – Hospital Queue Management System",
+                            "text": "An intelligent <b>queue management system</b> designed for hospitals to streamline patient check-ins and reduce waiting times. Built with <b>ReactJS</b>, <b>TypeScript</b>, and <b>SCSS</b> on the frontend, and powered by <b>NodeJS</b>, <b>Express</b>, and <b>MongoDB</b> on the backend. Designed in <b>Figma</b> with a focus on user experience and operational efficiency.",
+                            "tags": [
+                                "ReactJS",
+                                "TypeScript",
+                                "SCSS",
+                                "NodeJS",
+                                "Express",
+                                "MongoDB",
+                                "Figma",
+                                "AI"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-4.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/sauravdhoju/File-Organizer",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/FileOrganizer/2.png",
+                            "images/pictures/FileOrganizer/1.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "File Organizer – Smart File Sorting Tool",
+                            "text": "A utility tool built with <b>Python</b> and <b>Tkinter</b> that helps users <b>automatically sort and organize files</b> based on their extensions. It supports photos, PDFs, documents, executables, videos, and other file types. The intuitive GUI allows users to easily select directories for quick cleanup and organization.",
+                            "tags": [
+                                "Python",
+                                "Tkinter",
+                                "Utilities",
+                                "Automation",
+                                "File Management"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-5.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/sauravdhoju/AccountManagementSystem-TCR",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-account-system-1.png",
+                            "images/pictures/screenshot-account-system-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Account Management System – TCR",
+                            "text": "A web-based <b>account and responsibility management system</b> built using <b>Django (Python)</b>. Designed for club operations, it supports admin and user roles, where admins can <b>assign tasks, manage users</b>, and track activity. Ideal for small organizations or club management needs.",
+                            "tags": [
+                                "Python",
+                                "Django",
+                                "Web App",
+                                "Admin Panel",
+                                "User Roles"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_web",
+                    "img": "images/pictures/portfolio-project-logo-6.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/sauravdhoju/MovieTicketDjango",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-akrs-1.png",
+                            "images/pictures/screenshot-akrs-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AKRS – Movie-Ticket Booking System",
+                            "text": "A <b>Django-based movie ticket booking system</b> that allows users to browse movies, view detailed info, manage schedules, and book tickets online. Includes <b>user authentication</b> and a clean, responsive interface for seamless booking.",
+                            "tags": [
+                                "Python",
+                                "Django",
+                                "Web App",
+                                "Movie Booking",
+                                "Authentication"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-7.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/sauravdhoju/FouthSemProject",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-streamlit-account-1.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Account Management System – Streamlit App",
+                            "text": "A simple and interactive <b>account management tool</b> built with <b>Python</b> and <b>Streamlit</b>. Designed to handle basic record-keeping tasks with a clean UI for viewing, adding, and managing user account data.",
+                            "tags": [
+                                "Python",
+                                "Streamlit",
+                                "Finance",
+                                "Utilities"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-8.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/sauravdhoju/TicketBookingSystem",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/TicketBookingSystem/1.png",
+                            "images/pictures/TicketBookingSystem/2.png",
+                            "images/pictures/TicketBookingSystem/3.png",
+                            "images/pictures/TicketBookingSystem/4.png",
+                            "images/pictures/TicketBookingSystem/5.png",
+                            "images/pictures/TicketBookingSystem/6.png",
+                            "images/pictures/TicketBookingSystem/7.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Ticket Booking System – C++ Console App",
+                            "text": "A <b>console-based ticket booking system</b> developed using <b>C++</b>. Users can view schedules, select tickets, and simulate booking operations. Built with <b>Microsoft Visual Studio Community</b> and managed via <b>Git</b> for version control.",
+                            "tags": [
+                                "C++",
+                                "Console App",
+                                "Visual Studio",
+                                "Git",
+                                "Utilities"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-9.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/sauravdhoju/Sorting-DSA",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/QuickSort/1.png",
+                            "images/pictures/QuickSort/2.png",
+                            "images/pictures/QuickSort/3.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Sorting Algorithms – DSA Console Project",
+                            "text": "A <b>DSA-focused C++ console application</b> showcasing classic <b>sorting algorithms</b> like Bubble Sort, Selection Sort, and Insertion Sort. Developed using <b>Microsoft Visual Studio Community</b> and tracked with <b>Git</b> for version control.",
+                            "tags": [
+                                "C++",
+                                "DSA",
+                                "Sorting",
+                                "Console App",
+                                "Visual Studio",
+                                "Git"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-10.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/sauravdhoju/ERestaurant",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-erestaurant-1.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "ERestaurant – Console-Based Restaurant System",
+                            "text": "A <b>restaurant management system</b> built using both <b>C++</b> and <b>C</b>. Provides a console interface to manage orders, menus, and billing. Developed in <b>Microsoft Visual Studio</b> and tracked with <b>Git</b>.",
+                            "tags": [
+                                "C++",
+                                "C",
+                                "Console App",
+                                "Restaurant System",
+                                "Visual Studio",
+                                "Git"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-11.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/sauravdhoju/Calculator",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/screenshot-calculator-1.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Simple Calculator – C/C++ Console App",
+                            "text": "A basic <b>calculator application</b> built using <b>C and C++</b>. Runs in the console and supports arithmetic operations like addition, subtraction, multiplication, and division. Ideal for demonstrating fundamental programming and logic building.",
+                            "tags": [
+                                "C",
+                                "C++",
+                                "Calculator",
+                                "Console App",
+                                "Utilities"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

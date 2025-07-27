@@ -1,0 +1,164 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Awards",
+                "title_short_nav": "Achievements",
+                "title_long_prefix": "Here are my",
+                "title_long": "Career {{Achievements}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": {
+                    "title": "Certifications"
+                }
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "#673AB7",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 3
+                    },
+                    "link": {
+                        "href": "https://drive.google.com/file/d/1SlY5IJFR_WXyviHfgJOXFLklBA-MR5yD/view?usp=sharing",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "AI/ML {{Bootcamp}}",
+                            "text": "Completed a hands-on Artificial Intelligence and Machine Learning bootcamp covering supervised/unsupervised learning, Python, scikit-learn, and project deployment."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#E65100",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2023,
+                        "month": 11
+                    },
+                    "link": {
+                        "href": "https://drive.google.com/file/d/1Jr2xPMqYm6BeXsPAQq8vrSwySgZ5Z52_/view?usp=sharing",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{LaTeX}} Training",
+                            "text": "Earned a certificate for completing a LaTeX document preparation workshop. Learned to typeset academic papers, reports, and mathematical expressions efficiently."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-brands fa-figma",
+                    "faIconColors": {
+                        "bg": "#F24E1E",
+                        "fill": "#FFF"
+                    },
+                    "date": {
+                        "year": 2024,
+                        "month": 11
+                    },
+                    "link": {
+                        "href": "https://drive.google.com/file/d/1yYH6R7x54Nh28uFCkSRMdOYQyXI6E8sS/view?usp=sharing",
+                        "tooltipString": "see_certification"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Figma {{Basics Workshop}}",
+                            "text": "Participated in the 'Introduction to Figma Basics' workshop at the Orbit Engineering Expo 2024, organized by Engineers Vlogs. Gained hands-on experience in design fundamentals under the mentorship of Nikita Budhathoki."
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {
+                    "title": "Awards"
+                }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "date",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 2,
+                    "date": {
+                        "year": 2025,
+                        "month": 3
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Hackathon Finalist}} – MediQ",
+                            "province": "Bagmati Province",
+                            "country": "Nepal",
+                            "institution": "HealthTech Hackathon",
+                            "text": "Selected as a finalist for developing 'MediQ', a platform to manage and analyze medical records using machine learning, allowing users to visualize trends, detect early symptoms, and get recommendations."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {
+                        "year": 2024,
+                        "month": 12
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://drive.google.com/file/d/1yYH6R7x54Nh28uFCkSRMdOYQyXI6E8sS/view?usp=sharing",
+                                "tooltipString": "see_certification",
+                                "faIcon": "fa-brands fa-figma"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "{{Figma Basics Workshop}} – Orbit Engineering Expo 2.0",
+                            "province": "Lalitpur",
+                            "country": "Nepal",
+                            "institution": "Orbit Engineering Expo (Organized by Engineers Vlogs)",
+                            "text": "Participated in the 'Introduction to Figma Basics' workshop as part of Orbit Engineering Expo 2.0 (Nepal’s first international-level engineering expo, held December 6‑8, 2024), learning fundamentals of UI/UX design under mentorship and alongside global participants."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
