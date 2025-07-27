@@ -1,0 +1,65 @@
+{
+    "developerSettings": {
+        "debugMode": false,
+        "fakeEmailRequests": false,
+        "stayOnThePreloaderScreen": false,
+        "version": "1.0.0"
+    },
+    "preloaderSettings": {
+        "enabled": true,
+        "title": "<b>Portfolio</b>",
+        "subtitle": "by Saurav Dhoju",
+        "logoOffset": {
+            "right": 14,
+            "top": 2,
+            "bottom": 0
+        }
+    },
+    "templateSettings": {
+        "animatedCursorEnabled": true,
+        "backgroundStyle": "animated",
+        "defaultLanguageId": "en",
+        "defaultThemeId": "dark",
+        "fullscreenEnabled": true,
+        "showSpinnerOnThemeChange": false
+    },
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en-us.png"
+        }
+    ],
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "icon": "fa-solid fa-moon",
+            "dark": true,
+            "locales": {
+                "en": {
+                    "name": "Dark Mode"
+                },
+                "es": {
+                    "name": "Modo Oscuro"
+                }
+            }
+        },
+        {
+            "id": "light",
+            "icon": "fa-solid fa-sun",
+            "dark": false,
+            "locales": {
+                "en": {
+                    "name": "Light Mode"
+                },
+                "es": {
+                    "name": "Modo Claro"
+                }
+            }
+        }
+    ],
+    "consoleMessageForDevelopers": {
+        "title": "Hey!!"
+    },
+    "imagesToCache": []
+}
