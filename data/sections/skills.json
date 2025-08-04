@@ -162,7 +162,7 @@
                         "year": null,
                         "month": null
                     },
-                    "percentage": 70,
+                    "percentage": 50,
                     "locales": {
                         "en": {
                             "title": "Adobe XD",
@@ -183,7 +183,7 @@
                         "year": null,
                         "month": null
                     },
-                    "percentage": 60,
+                    "percentage": 80,
                     "locales": {
                         "en": {
                             "title": "Canva",
@@ -222,12 +222,12 @@
                         "year": null,
                         "month": null
                     },
-                    "percentage": 100,
+                    "percentage": 60,
                     "locales": {
                         "en": {
                             "title": "HTML5",
                             "text": "Proficient in HTML5 for building structured web pages.",
-                            "level": ""
+                            "level": "Intermediate"
                         }
                     }
                 },
@@ -243,12 +243,12 @@
                         "year": null,
                         "month": null
                     },
-                    "percentage": 65,
+                    "percentage": 60,
                     "locales": {
                         "en": {
                             "title": "CSS3",
                             "text": "Able to create responsive and visually appealing designs using CSS3.",
-                            "level": ""
+                            "level": "Intermediate"
                         }
                     }
                 },
@@ -264,12 +264,12 @@
                         "year": null,
                         "month": null
                     },
-                    "percentage": 90,
+                    "percentage": 50,
                     "locales": {
                         "en": {
                             "title": "JavaScript ES6+",
                             "text": "Mastered JavaScript ES6+ for dynamic and interactive web applications.",
-                            "level": ""
+                            "level": "Intermediate"
                         }
                     }
                 },
@@ -285,38 +285,17 @@
                         "year": null,
                         "month": null
                     },
-                    "percentage": 95,
+                    "percentage": 60,
                     "locales": {
                         "en": {
                             "title": "React",
                             "text": "Complete understanding of React for building modern web applications.",
-                            "level": ""
+                            "level": "Intermediate"
                         }
                     }
                 },
                 {
                     "id": 5,
-                    "img": "",
-                    "faIcon": "fa-brands fa-vuejs",
-                    "faIconColors": {
-                        "bg": "",
-                        "fill": "#4FC08D"
-                    },
-                    "date": {
-                        "year": null,
-                        "month": null
-                    },
-                    "percentage": 20,
-                    "locales": {
-                        "en": {
-                            "title": "Vue.js",
-                            "text": "Basic familiarity with Vue.js for interactive user interfaces.",
-                            "level": ""
-                        }
-                    }
-                },
-                {
-                    "id": 6,
                     "img": "",
                     "faIcon": "fa-brands fa-bootstrap",
                     "faIconColors": {
@@ -332,7 +311,7 @@
                         "en": {
                             "title": "Bootstrap 5+",
                             "text": "Some experience with Bootstrap for responsive design.",
-                            "level": ""
+                            "level": "Beginner"
                         }
                     }
                 }
@@ -366,7 +345,7 @@
                         "year": null,
                         "month": null
                     },
-                    "percentage": 70,
+                    "percentage": 50,
                     "locales": {
                         "en": {
                             "title": "Node.js & Express.js",
@@ -426,7 +405,7 @@
                         "year": null,
                         "month": null
                     },
-                    "percentage": 70,
+                    "percentage": 45,
                     "locales": {
                         "en": {
                             "title": "MongoDB",
@@ -447,7 +426,7 @@
                         "year": null,
                         "month": null
                     },
-                    "percentage": 65,
+                    "percentage": 50,
                     "locales": {
                         "en": {
                             "title": "PostgreSQL",
@@ -528,7 +507,7 @@
                         "year": null,
                         "month": null
                     },
-                    "percentage": 40,
+                    "percentage": 20,
                     "locales": {
                         "en": {
                             "title": "Docker",
@@ -571,14 +550,14 @@
                     "locales": {
                         "en": {
                             "title": "English",
-                            "text": "Native speaker with excellent communication and writing skills.",
-                            "level": "Native"
+                            "text": "Better communication and writing skills.",
+                            "level": "Intermediate"
                         }
                     }
                 },
                 {
                     "id": 2,
-                    "img": "images/flags/np.png",
+                    "img": "images/flags/nepali.png",
                     "faIcon": "",
                     "faIconColors": {
                         "bg": "",
@@ -593,13 +572,13 @@
                         "en": {
                             "title": "Nepali",
                             "text": "Fluent in Nepali language and communication.",
-                            "level": "Fluent"
+                            "level": "Native"
                         }
                     }
                 },
                 {
                     "id": 3,
-                    "img": "images/flags/newar.png",
+                    "img": "images/flags/nepalbhasa.png",
                     "faIcon": "",
                     "faIconColors": {
                         "bg": "",
@@ -614,7 +593,7 @@
                         "en": {
                             "title": "Newar",
                             "text": "Conversational skills in Newar language.",
-                            "level": "Intermediate"
+                            "level": "Mother-Tongue"
                         }
                     }
                 }
