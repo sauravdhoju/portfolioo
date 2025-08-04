@@ -9,7 +9,6 @@
             }
         }
     },
-
     "articles": [
         {
             "id": 1,
@@ -24,7 +23,10 @@
                     "id": 1,
                     "img": null,
                     "faIcon": "fa-solid fa-tablet-screen-button",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "locales": {
                         "en": {
                             "title": "00",
@@ -36,7 +38,10 @@
                     "id": 2,
                     "img": null,
                     "faIcon": "fa-solid fa-star",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "locales": {
                         "en": {
                             "title": "05",
@@ -48,7 +53,10 @@
                     "id": 3,
                     "img": null,
                     "faIcon": "fa-solid fa-coffee",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "locales": {
                         "en": {
                             "title": "20,000",
@@ -60,7 +68,10 @@
                     "id": 4,
                     "img": null,
                     "faIcon": "fa-solid fa-laptop-code",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "locales": {
                         "en": {
                             "title": "1,000,000+",
@@ -72,7 +83,10 @@
                     "id": 5,
                     "img": null,
                     "faIcon": "fa-solid fa-heart",
-                    "faIconColors": {"bg": "", "fill": ""},
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
                     "locales": {
                         "en": {
                             "title": "Infinite",
@@ -82,12 +96,13 @@
                 }
             ]
         },
-
         {
             "id": 2,
             "component": "ArticleThread",
             "locales": {
-                "en": { "title": "Quick {{Facts}}" }
+                "en": {
+                    "title": "Quick {{Facts}}"
+                }
             },
             "settings": {
                 "max_rows_collapse_threshold": 3,
@@ -97,11 +112,22 @@
             "items": [
                 {
                     "id": 5,
-                    "date": {"year": 2025, "month": 6},
+                    "date": {
+                        "year": 2025,
+                        "month": 6
+                    },
                     "preview": {
                         "links": [
-                            {"href": "https://google.com", "tooltipString": "open_website", "faIcon": "fa-solid fa-link"},
-                            {"href": "", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                            {
+                                "href": "https://google.com",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            },
+                            {
+                                "href": "",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
                         ],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
@@ -119,6 +145,34 @@
                                 "Blog with articles on technology, coding, and personal experiences",
                                 "Contact form for inquiries and collaborations",
                                 "Links to my social media profiles and GitHub"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "date": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Started React Frontend Internship at {{Danfe Solution}}",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "I recently joined Danfe Solution as a React Frontend Development Intern starting from July 27, 2025. I’m working closely with the Frontend Development team to design and implement clean, responsive, and user-friendly interfaces. This internship gives me hands-on experience in modern web development and collaboration in a professional setting.",
+                            "list": [
+                                "Building user interfaces using React.js",
+                                "Participating in UI/UX design discussions and implementation",
+                                "Collaborating with senior developers in agile workflows",
+                                "Improving component reusability and design consistency"
                             ]
                         }
                     }
