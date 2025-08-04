@@ -118,6 +118,38 @@
                             ]
                         }
                     }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "#2980b9",
+                        "fill": "#ecf0f1"
+                    },
+                    "dateStart": {
+                        "year": 2025,
+                        "month": 7
+                    },
+                    "dateEnd": {
+                        "now": true
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Intern – Danfe Solution",
+                            "province": "Nepal",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "Currently working as a React Frontend Development Intern at Danfe Solution since July 27, 2025. Contributing to UI/UX implementations and collaborating with the design team to build responsive and accessible user interfaces.",
+                            "list": [],
+                            "tags": [
+                                "ReactJS",
+                                "Frontend Development",
+                                "UI/UX",
+                                "Web Development"
+                            ]
+                        }
+                    }
                 }
             ]
         }
