@@ -18,14 +18,16 @@
                     "category_all": "All",
                     "category_apps": "Apps",
                     "category_web": "Web",
-                    "category_utilities": "Utilities"
+                    "category_utilities": "Utilities",
+                    "category_figma": "Figma Designs"
                 }
             },
             "settings": {
                 "categorize_by": [
                     "category_apps",
                     "category_web",
-                    "category_utilities"
+                    "category_utilities",
+                    "category_figma"
                 ],
                 "order_items_by": "id",
                 "order_items_sort": "asc"
@@ -244,7 +246,7 @@
                 {
                     "id": 6,
                     "categoryId": "category_web",
-                    "img": "images/pictures/portfolio-project-logo-6.png",
+                    "img": "",
                     "faIcon": "",
                     "faIconColors": {
                         "bg": "",
@@ -463,6 +465,82 @@
                                 "Calculator",
                                 "Console App",
                                 "Utilities"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 13,
+                    "categoryId": "category_figma",
+                    "img": "",
+                    "faIcon": "fa-brands fa-figma",
+                    "faIconColors": {
+                        "bg": "#F24E1E",
+                        "fill": "#FFFFFF"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.figma.com/proto/VQqIa7mkODLJ0YVm1mlw9N/QuiZZY?node-id=1-2&p=f&t=Kq26eMxTi0aD0yJX-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1",
+                                "tooltipString": "Open in Figma (Password: blink-arrow-node-art)",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/Figma/Quizzy/Quizzy.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "QuiZZY Figma Prototype",
+                            "text": "A UI/UX design project created in <b>Figma</b> showcasing an interactive quiz app prototype. <br><b>Password to access:</b> blink-arrow-node-art",
+                            "tags": [
+                                "Figma",
+                                "UI/UX",
+                                "Prototype",
+                                "Quiz App"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 14,
+                    "categoryId": "category_figma",
+                    "img": "",
+                    "faIcon": "fa-brands fa-figma",
+                    "faIconColors": {
+                        "bg": "#F24E1E",
+                        "fill": "#FFFFFF"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.figma.com/proto/ISaxfPKSkc2reZ5aSYStAR/To-Do-App?node-id=82-68&p=f&t=UEeWT4whAkj1nIEi-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=3%3A2",
+                                "tooltipString": "Open in Figma (Password: dirt-coach-marine-moving)",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/Figma/ToDo/1.png",
+                            "images/pictures/Figma/ToDo/2.png",
+                            "images/pictures/Figma/ToDo/3.png",
+                            "images/pictures/Figma/ToDo/4.png",
+                            "images/pictures/Figma/ToDo/5.png",
+                            "images/pictures/Figma/ToDo/6.png",
+                            "images/pictures/Figma/ToDo/7.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "To-Do App Figma Prototype",
+                            "text": "A UI/UX design project created in <b>Figma</b> for a task management app. <br><b>Password to access:</b> dirt-coach-marine-moving",
+                            "tags": [
+                                "Figma",
+                                "UI/UX",
+                                "Prototype",
+                                "To-Do App"
                             ]
                         }
                     }
