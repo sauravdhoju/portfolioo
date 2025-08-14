@@ -1,10 +1,4 @@
-/**
- * @author Ryan Balieiro
- * @description Use this script to create new articles.
- *
- * @usage
- * npm run resume:make:article
- */
+
 import {useNpmLogger} from "./snippets/_npm-log.js"
 import {useNpmFileUtils} from "./snippets/_npm-files.js"
 import makeArticleComponent from "./templates/article-component-builder.js"
