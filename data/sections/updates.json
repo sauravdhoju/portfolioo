@@ -167,7 +167,7 @@
                             "province": "Bagmati",
                             "country": "Nepal",
                             "institution": "Danfe Solution",
-                            "text": "I recently joined Danfe Solution as a React Frontend Development Intern starting from July 27, 2025. I’m working closely with the Frontend Development team to design and implement clean, responsive, and user-friendly interfaces. This internship gives me hands-on experience in modern web development and collaboration in a professional setting.",
+                            "text": "I recently joined [[Danfe Solution]] as a [[React Frontend Development]] Intern starting from July 27, 2025. I’m working closely with the Frontend Development team to design and implement clean, responsive, and user-friendly interfaces. This internship gives me hands-on experience in modern web development and collaboration in a professional setting.",
                             "list": [
                                 "Building user interfaces using React.js",
                                 "Participating in UI/UX design discussions and implementation",
@@ -184,18 +184,24 @@
                         "month": 8
                     },
                     "preview": {
-                        "links": [],
+                        "links": [
+                            {
+                                "href": "https://github.com/Asymptoads/Futsal",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "Currently involved in developing the Futsala (Futsal Management System) project",
+                            "title": "Currently involved in developing the {{Futsala}} (Futsal Management System) project",
                             "province": "Bagmati",
                             "country": "Nepal",
                             "institution": "Asymptoads",
-                            "text": "I am currently involved in the development of the Futsala project, also known as the Futsal Management System, as a UI/UX Designer and Frontend Developer. This project is being developed with my college friends under the team name Asymptoads, where we are focusing on creating an intuitive and seamless digital platform for managing futsal activities.",
+                            "text": "I am currently involved in the development of the [[Futsala project]], also known as the [[Futsal Management System]], as a UI/UX Designer and Frontend Developer. This project is being developed with my college friends under the team name Asymptoads, where we are focusing on creating an intuitive and seamless digital platform for managing futsal activities.",
                             "list": [
                                 "Designing intuitive and user-friendly UI/UX for the platform",
                                 "Developing responsive frontend components",
