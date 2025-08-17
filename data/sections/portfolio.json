@@ -544,6 +544,43 @@
                             ]
                         }
                     }
+                },
+                {
+                    "id": 15,
+                    "categoryId": "category_figma",
+                    "img": "",
+                    "faIcon": "fa-brands fa-figma",
+                    "faIconColors": {
+                        "bg": "#F24E1E",
+                        "fill": "#FFFFFF"
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://www.figma.com/proto/JRA9sYo6EhdV4fUOxozKRr/KickChaur?node-id=4-98&p=f&t=W4aiyDBUU1Kde8DV-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A98",
+                                "tooltipString": "Open in Figma (Password)",
+                                "faIcon": "fa-solid fa-link"
+                            }
+                        ],
+                        "screenshots": [
+                            "images/pictures/Figma/Futsala/1.png",
+                            "images/pictures/Figma/Futsala/2.png",
+                            "images/pictures/Figma/Futsala/3.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "A Futsala Webapp Prototype",
+                            "text": "A UI/UX design project created in <b>Figma</b> for a futsal management system. <br><b>Password to access:</b> dirt-coach-marine-moving",
+                            "tags": [
+                                "Figma",
+                                "UI/UX",
+                                "Prototype",
+                                "Futsal Webapp"
+                            ]
+                        }
+                    }
                 }
             ]
         }

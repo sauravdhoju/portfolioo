@@ -119,7 +119,7 @@
                     "preview": {
                         "links": [
                             {
-                                "href": "https://google.com",
+                                "href": "https://sauravdhoju.com.np",
                                 "tooltipString": "open_website",
                                 "faIcon": "fa-solid fa-link"
                             },
@@ -173,6 +173,34 @@
                                 "Participating in UI/UX design discussions and implementation",
                                 "Collaborating with senior developers in agile workflows",
                                 "Improving component reusability and design consistency"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "date": {
+                        "year": 2025,
+                        "month": 8
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Currently involved in developing the Futsala (Futsal Management System) project",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Asymptoads",
+                            "text": "I am currently involved in the development of the Futsala project, also known as the Futsal Management System, as a UI/UX Designer and Frontend Developer. This project is being developed with my college friends under the team name Asymptoads, where we are focusing on creating an intuitive and seamless digital platform for managing futsal activities.",
+                            "list": [
+                                "Designing intuitive and user-friendly UI/UX for the platform",
+                                "Developing responsive frontend components",
+                                "Collaborating with team members on feature design and implementation",
+                                "Ensuring consistency and usability across different modules"
                             ]
                         }
                     }
