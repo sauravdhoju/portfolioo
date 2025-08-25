@@ -53,7 +53,15 @@ div.article-skills-item {
     background-color: transparent;
     border-radius: $standard-border-radius;
     padding: var(--padding);
+    transition: box-shadow 0.2s, transform 0.2s;
 }
+
+// Add this block right after the above
+// div.article-skills-item:hover {
+//     box-shadow: 0 6px 24px rgba(139,69,19,0.18); // brown shadow
+//     transform: translateY(-4px) scale(1.03);
+//     background: #e0b089; // light brown background on hover
+// }
 
 div.article-skills-item-avatar-wrapper {
     display: flex;
