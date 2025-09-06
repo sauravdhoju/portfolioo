@@ -47,7 +47,7 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/about-texts-image-1.png",
+                    "img": "images/pictures/profile.png",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
