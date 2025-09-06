@@ -36,6 +36,8 @@
             "jsonPath": "/data/sections/experience.json",
             "faIcon": "fa-solid fa-briefcase"
         },
+
+
         {
             "id": "updates",
             "categoryId": "more",

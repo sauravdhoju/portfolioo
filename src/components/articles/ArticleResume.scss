@@ -1,0 +1,20 @@
+@import "/src/styles/extend.scss";
+.article-resume {
+    margin-bottom: 2rem;
+
+    .article-resume-item {
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+
+        .accordion-button {
+            background-color: #f8f9fa;
+            font-weight: 500;
+        }
+
+        .accordion-body {
+            font-size: 0.95rem;
+            background-color: #fff;
+        }
+    }
+}
