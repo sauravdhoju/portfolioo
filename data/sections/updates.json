@@ -59,7 +59,7 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "20,000",
+                            "title": "",
                             "text": "Coffees consumed"
                         }
                     }
@@ -164,16 +164,16 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Started React Frontend Internship at {{Danfe Solution}}",
+                            "title": "Successfully Completed React Frontend Internship at Danfe Solution",
                             "province": "Bagmati",
                             "country": "Nepal",
                             "institution": "Danfe Solution",
-                            "text": "I recently joined [[Danfe Solution]] as a [[React Frontend Development]] Intern starting from July 27, 2025. I’m working closely with the Frontend Development team to design and implement clean, responsive, and user-friendly interfaces. This internship gives me hands-on experience in modern web development and collaboration in a professional setting.",
+                            "text": "I have successfully completed my React Frontend Development internship at Danfe Solution, which took place from July 27, 2025 to October 27, 2025. During this period, I worked closely with the Frontend team to design and develop clean, responsive, and user-friendly interfaces. This internship provided me with valuable hands-on experience in modern web development and effective collaboration within a professional environment.",
                             "list": [
-                                "Building user interfaces using React.js",
-                                "Participating in UI/UX design discussions and implementation",
-                                "Collaborating with senior developers in agile workflows",
-                                "Improving component reusability and design consistency"
+                                "Developing user interfaces using React.js",
+                                "Contributing to UI/UX design discussions and implementation",
+                                "Collaborating with senior developers in an agile workflow",
+                                "Enhancing component reusability and maintaining design consistency"
                             ]
                         }
                     }
