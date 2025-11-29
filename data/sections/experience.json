@@ -20,38 +20,6 @@
             },
             "items": [
                 {
-                    "id": 2,
-                    "img": "",
-                    "faIcon": "fa-solid fa-users",
-                    "faIconColors": {
-                        "bg": "#2c3e50",
-                        "fill": "#ecf0f1"
-                    },
-                    "dateStart": {
-                        "year": 2022,
-                        "month": 6
-                    },
-                    "dateEnd": {
-                        "year": 2024,
-                        "month": 5
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Student Representative",
-                            "province": "Liwali-08, Bhaktapur",
-                            "country": "Nepal",
-                            "institution": "Khwopa Engineering College",
-                            "text": "Selected as a student representative for the Department of Computer Engineering. Acted as a facilitator between students and faculty to address academic and welfare concerns, coordinated departmental events, and contributed to policy discussions that improved student life.",
-                            "list": [],
-                            "tags": [
-                                "Leadership",
-                                "Communication",
-                                "Student Advocacy"
-                            ]
-                        }
-                    }
-                },
-                {
                     "id": 3,
                     "img": "",
                     "faIcon": "fa-solid fa-robot",
@@ -88,39 +56,76 @@
                     }
                 },
                 {
-                    "id": 1,
+                    "id": 2,
                     "img": "",
-                    "faIcon": "fa-solid fa-flag",
+                    "faIcon": "fa-solid fa-users",
                     "faIconColors": {
-                        "bg": "#c0392b",
+                        "bg": "#2c3e50",
                         "fill": "#ecf0f1"
                     },
                     "dateStart": {
-                        "year": 2021,
-                        "month": 1
+                        "year": 2022,
+                        "month": 6
                     },
                     "dateEnd": {
-                        "now": true
+                        "year": 2024,
+                        "month": 5
                     },
                     "locales": {
                         "en": {
-                            "title": "President – Nepal Krantikari Bidyarthi Sangh",
-                            "province": "Banshagopal, Ward No. 03",
+                            "title": "Student Representative",
+                            "province": "Liwali-08, Bhaktapur",
                             "country": "Nepal",
-                            "institution": "Nepal Krantikari Bidyarthi Sangh",
-                            "text": "Serving as the elected president of the local chapter, representing student voices and leading educational and social campaigns. Responsible for organizing awareness programs, advocating for student rights, and coordinating community events to promote youth engagement and education.",
+                            "institution": "Khwopa Engineering College",
+                            "text": "Selected as a student representative for the Department of Computer Engineering. Acted as a facilitator between students and faculty to address academic and welfare concerns, coordinated departmental events, and contributed to policy discussions that improved student life.",
                             "list": [],
                             "tags": [
                                 "Leadership",
-                                "Public Speaking",
-                                "Student Activism",
-                                "Community Engagement"
+                                "Communication",
+                                "Student Advocacy"
                             ]
                         }
                     }
                 },
                 {
-                    "id": 2,
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "#2980b9",
+                        "fill": "#ecf0f1"
+                    },
+                    "date": {
+                        "startDate": {
+                            "year": 2025,
+                            "month": 7,
+                            "day": 28
+                        },
+                        "endDate": {
+                            "year": 2025,
+                            "month": 10,
+                            "day": 28
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Intern – Danfe Solution",
+                            "province": "Nepal",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "Completed my 3 month internship as a React Frontend Development Intern at Danfe Solution from July 28, 2025, to October 28, 2025. During this time, I contributed to UI/UX implementations and collaborated with the design team to create responsive and accessible user interfaces.",
+                            "list": [],
+                            "tags": [
+                                "ReactJS",
+                                "Frontend Development",
+                                "UI/UX",
+                                "Web Development"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
                     "img": "",
                     "faIcon": "fa-solid fa-laptop-code",
                     "faIconColors": {
@@ -129,24 +134,27 @@
                     },
                     "dateStart": {
                         "year": 2025,
-                        "month": 7
+                        "month": 11,
+                        "day": 1
                     },
                     "dateEnd": {
                         "now": true
                     },
                     "locales": {
                         "en": {
-                            "title": "Frontend Intern – Danfe Solution",
+                            "title": "Junior Frontend Developer – Danfe Solution",
                             "province": "Nepal",
                             "country": "Nepal",
                             "institution": "Danfe Solution",
-                            "text": "Currently working as a React Frontend Development Intern at Danfe Solution since July 27, 2025. Contributing to UI/UX implementations and collaborating with the design team to build responsive and accessible user interfaces.",
+                            "text": "Currently working as a Junior Frontend Developer at Danfe Solution. Responsible for developing and maintaining responsive user interfaces, collaborating with the UI/UX design team, and implementing modern React-based frontend solutions. Contributing to performance optimization, code quality improvements, and delivering user-friendly web experiences.",
                             "list": [],
                             "tags": [
                                 "ReactJS",
                                 "Frontend Development",
+                                "JavaScript",
                                 "UI/UX",
-                                "Web Development"
+                                "Web Development",
+                                "Responsive Design"
                             ]
                         }
                     }
