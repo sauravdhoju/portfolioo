@@ -59,7 +59,7 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "",
+                            "title": "00",
                             "text": "Coffees consumed"
                         }
                     }
@@ -111,10 +111,14 @@
             },
             "items": [
                 {
-                    "id": 5,
+                    "id": 1,
                     "date": {
-                        "year": 2025,
-                        "month": 6
+                        "startDate": {
+                            "year": 2025,
+                            "month": 6,
+                            "day": 15
+                        },
+                        "endDate": {}
                     },
                     "preview": {
                         "links": [
@@ -150,36 +154,7 @@
                     }
                 },
                 {
-                    "id": 6,
-                    "date": {
-                        "year": 2025,
-                        "month": 7,
-                        "day": 28
-                    },
-                    "preview": {
-                        "links": [],
-                        "screenshots": [],
-                        "screenshotsAspectRatio": "",
-                        "youtubeVideo": ""
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Successfully Completed React Frontend Internship at Danfe Solution",
-                            "province": "Bagmati",
-                            "country": "Nepal",
-                            "institution": "Danfe Solution",
-                            "text": "I have successfully completed my React Frontend Development internship at Danfe Solution, which took place from July 27, 2025 to October 27, 2025. During this period, I worked closely with the Frontend team to design and develop clean, responsive, and user-friendly interfaces. This internship provided me with valuable hands-on experience in modern web development and effective collaboration within a professional environment.",
-                            "list": [
-                                "Developing user interfaces using React.js",
-                                "Contributing to UI/UX design discussions and implementation",
-                                "Collaborating with senior developers in an agile workflow",
-                                "Enhancing component reusability and maintaining design consistency"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "id": 8,
+                    "id": 2,
                     "date": {
                         "year": 2025,
                         "month": 8
@@ -208,6 +183,75 @@
                                 "Developing responsive frontend components",
                                 "Collaborating with team members on feature design and implementation",
                                 "Ensuring consistency and usability across different modules"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {
+                        "startDate": {
+                            "year": 2025,
+                            "month": 7,
+                            "day": 28
+                        },
+                        "endDate": {
+                            "year": 2025,
+                            "month": 10,
+                            "day": 28
+                        }
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Successfully Completed React Frontend Internship at Danfe Solution",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "I have successfully completed my React Frontend Development internship at Danfe Solution, which took place from July 27, 2025 to October 27, 2025. During this period, I worked closely with the Frontend team to design and develop clean, responsive, and user-friendly interfaces. This internship provided me with valuable hands-on experience in modern web development and effective collaboration within a professional environment.",
+                            "list": [
+                                "Developing user interfaces using React.js",
+                                "Contributing to UI/UX design discussions and implementation",
+                                "Collaborating with senior developers in an agile workflow",
+                                "Enhancing component reusability and maintaining design consistency"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {
+                        "startDate": {
+                            "year": 2025,
+                            "month": 10,
+                            "day": 28
+                        },
+                        "endDate": null
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Currently Working As Junior Frontend Developer at Danfe Solution",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "After successfully completing my React Frontend Development internship at Danfe Solution, I have continued my journey with the company as a Junior Frontend Developer starting from October 28, 2025. In this role, I work closely with the development team to build, optimize, and maintain scalable and user-friendly web interfaces. I continue to expand my skills in frontend technologies while contributing to real-world projects in a professional and collaborative environment.",
+                            "list": [
+                                "Building and maintaining responsive user interfaces using React.js",
+                                "Writing clean, reusable, and maintainable frontend components",
+                                "Collaborating with designers and backend developers to implement new features",
+                                "Optimizing application performance and improving UI/UX consistency",
+                                "Participating in code reviews and agile development processes"
                             ]
                         }
                     }

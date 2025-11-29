@@ -24,8 +24,9 @@ export default class ArticleItemDataWrapper {
         this.category = undefined
 
         const date = this._parseDate(rawData.date)
-        const dateStart = this._parseDate(rawData.dateStart) || date
-        const dateEnd = this._parseDate(rawData.dateEnd)
+        // Handle nested date structure (date.startDate and date.endDate)
+        const dateStart = this._parseDate(rawData.date?.startDate) || this._parseDate(rawData.dateStart) || date
+        const dateEnd = this._parseDate(rawData.date?.endDate) || this._parseDate(rawData.dateEnd)
 
         this.dateStart = date || dateStart
         this.dateStartDisplay = language.getDateLocaleString(this.dateStart)

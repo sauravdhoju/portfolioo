@@ -65,18 +65,38 @@ function ArticleThreadItems({ dataWrapper, selectedItemCategoryId }) {
 }
 
 /**
- * Calculate days since a given date.
- * @param {number} year
- * @param {number} month
- * @param {number} day
- * @returns {number}
+ * Format a date to a readable string (e.g., "July 28, 2025")
+ * @param {Date} date
+ * @returns {string}
  */
-function calculateDaysSince(year, month, day = 1) {
-  const startDate = new Date(year, month - 1, day);
-  const today = new Date();
-  const diffTime = today - startDate;
+function formatDateLong(date) {
+  if (!date) return "";
+  return date.toLocaleDateString("en-US", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+/**
+ * Calculate duration between two dates
+ * @param {Date} startDate
+ * @param {Date} endDate
+ * @returns {{days: number, months: number}}
+ */
+function calculateDuration(startDate, endDate) {
+  const diffTime = endDate - startDate;
   const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-  return diffDays;
+  
+  // Calculate months difference
+  const yearsDiff = endDate.getFullYear() - startDate.getFullYear();
+  const monthsDiff = endDate.getMonth() - startDate.getMonth();
+  const totalMonths = yearsDiff * 12 + monthsDiff;
+  
+  return {
+    days: diffDays,
+    months: totalMonths,
+  };
 }
 
 /**
@@ -85,16 +105,25 @@ function calculateDaysSince(year, month, day = 1) {
  * @constructor
  */
 function ArticleThreadItem({ itemWrapper }) {
-  console.log("itemWrapper:", itemWrapper);
-  let daysText = "";
+  let durationText = "";
 
-  // Use dateStart if available
-  if (itemWrapper && itemWrapper.dateStart instanceof Date) {
-    const startDate = itemWrapper.dateStart;
-    const today = new Date();
-    const diffTime = today - startDate;
-    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
-    daysText = `Duration: ${diffDays} day(s)`;
+  // Calculate duration if start date is available
+  if (itemWrapper?.dateStart instanceof Date) {
+    const startDateFormatted = formatDateLong(itemWrapper.dateStart);
+    let endDateFormatted = "";
+    let endDate = itemWrapper.dateEnd;
+    
+    // If no end date, use present date
+    if (!endDate || !(endDate instanceof Date)) {
+      endDate = new Date();
+      endDateFormatted = "Present";
+    } else {
+      endDateFormatted = formatDateLong(endDate);
+    }
+    
+    const duration = calculateDuration(itemWrapper.dateStart, endDate);
+    
+    durationText = `Duration: ${startDateFormatted} - ${endDateFormatted} (${duration.months} month${duration.months !== 1 ? 's' : ''}) (${duration.days} day${duration.days !== 1 ? 's' : ''})`;
   }
 
   return (
@@ -112,12 +141,9 @@ function ArticleThreadItem({ itemWrapper }) {
           dateInterval={false}
         />
         <ArticleItemInfoForTimelinesBody itemWrapper={itemWrapper} />
-        {/* Render daysText if available */}
-        {daysText && (
-          <div
-            style={{ marginTop: "8px", fontWeight: "bold", color: "#E0B089" }}
-          >
-            {daysText}
+        {durationText && (
+          <div className="article-thread-item-duration">
+            {durationText}
           </div>
         )}
         <ArticleItemInfoForTimelinesPreviewFooter itemWrapper={itemWrapper} />
