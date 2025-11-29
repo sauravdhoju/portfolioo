@@ -1,7 +1,7 @@
 {
     "name": "Saurav Dhoju",
     "profilePictureUrl": "images/pictures/profile.jpg",
-    "resumePdfUrl": "",
+    "resumePdfUrl": "resume/Saurav_Dhoju_Resume.pdf",
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
     "statusCircleHoverMessage": "status_message_available_for_freelance",

@@ -1,0 +1,447 @@
+@import "/src/styles/extend.scss";
+
+.article-resume-enhanced {
+  .resume-premium-container {
+    position: relative;
+  }
+
+  // Premium Header with Gradient - Using project colors
+  .resume-premium-header {
+    background: linear-gradient(135deg, var(--bs-primary) 0%, lighten(#e0b089, 10%) 100%);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    @include media-breakpoint-down(md) {
+      padding: 18px 20px;
+      border-radius: 10px;
+    }
+
+    // Animated background pattern
+    &::before {
+      content: "";
+      position: absolute;
+      top: -50%;
+      right: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 0.1) 0%,
+        transparent 70%
+      );
+      animation: pulse 8s ease-in-out infinite;
+    }
+
+    .resume-header-content {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      position: relative;
+      z-index: 1;
+      margin-bottom: 16px;
+
+      @include media-breakpoint-down(sm) {
+        gap: 12px;
+      }
+
+      .resume-header-icon {
+        width: 44px;
+        height: 44px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+
+        i {
+          font-size: 20px;
+          color: white;
+        }
+
+        @include media-breakpoint-down(sm) {
+          width: 40px;
+          height: 40px;
+
+          i {
+            font-size: 18px;
+          }
+        }
+      }
+
+      .resume-header-text {
+        flex: 1;
+
+        h2 {
+          margin: 0;
+          color: white;
+          font-size: 1.25rem;
+          font-weight: 600;
+          margin-bottom: 2px;
+
+          @include media-breakpoint-down(sm) {
+            font-size: 1.1rem;
+          }
+        }
+
+        p {
+          margin: 0;
+          color: rgba(255, 255, 255, 0.85);
+          font-size: 0.85rem;
+        }
+      }
+    }
+
+    .resume-view-toggle {
+      display: flex;
+      gap: 8px;
+      position: relative;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+      padding: 4px;
+      border-radius: 8px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+
+      @include media-breakpoint-down(sm) {
+        gap: 6px;
+      }
+
+      .toggle-btn {
+        flex: 1;
+        padding: 8px 16px;
+        border: none;
+        background: transparent;
+        color: rgba(255, 255, 255, 0.8);
+        border-radius: 6px;
+        font-weight: 500;
+        font-size: 0.875rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        white-space: nowrap;
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.1);
+          color: white;
+        }
+
+        &.active {
+          background: white;
+          color: var(--bs-primary);
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        i {
+          font-size: 0.85em;
+        }
+      }
+    }
+  }
+
+  // PDF Premium View
+  .resume-pdf-premium {
+    .resume-action-cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+
+      .action-card {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        padding: 16px 18px;
+        background: var(--bs-body-bg);
+        border: 1px solid var(--bs-border-color);
+        border-radius: 10px;
+        text-decoration: none;
+        color: var(--bs-body-color);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow: hidden;
+
+        &::before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: linear-gradient(135deg, var(--bs-primary) 0%, #667eea 100%);
+          opacity: 0;
+          transition: opacity 0.4s ease;
+          z-index: 0;
+        }
+
+        &:hover {
+          transform: translateY(-4px);
+          border-color: var(--bs-primary);
+          box-shadow: 0 8px 24px rgba(var(--bs-primary-rgb), 0.2);
+
+          &::before {
+            opacity: 0.05;
+          }
+
+          .card-icon {
+            transform: scale(1.1) rotate(5deg);
+            background: var(--bs-primary);
+            color: white;
+          }
+
+          .card-arrow {
+            transform: translateX(8px);
+            color: var(--bs-primary);
+          }
+        }
+
+        .card-icon {
+          position: relative;
+          z-index: 1;
+          width: 40px;
+          height: 40px;
+          background: var(--bs-secondary-bg);
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          transition: all 0.4s ease;
+
+          i {
+            font-size: 18px;
+            color: var(--bs-primary);
+          }
+        }
+
+        .card-content {
+          position: relative;
+          z-index: 1;
+          flex: 1;
+
+          h4 {
+            margin: 0 0 2px 0;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--bs-heading-color);
+          }
+
+          p {
+            margin: 0;
+            font-size: 0.8rem;
+            color: var(--bs-secondary-color);
+          }
+        }
+
+        .card-arrow {
+          position: relative;
+          z-index: 1;
+          font-size: 16px;
+          color: var(--bs-secondary-color);
+          transition: all 0.4s ease;
+        }
+      }
+    }
+
+    .resume-pdf-viewer-premium {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      background: var(--bs-body-bg);
+
+      // Animated glowing border - Using project colors
+      .pdf-border-glow {
+        position: absolute;
+        top: -1px;
+        left: -1px;
+        right: -1px;
+        bottom: -1px;
+        background: linear-gradient(
+          45deg,
+          var(--bs-primary),
+          lighten(#e0b089, 15%),
+          var(--bs-primary)
+        );
+        background-size: 200% 200%;
+        animation: borderGlow 3s ease infinite;
+        border-radius: 12px;
+        z-index: 0;
+      }
+
+      .resume-pdf-iframe {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        height: 750px;
+        border: none;
+        display: block;
+        border-radius: 11px;
+        background: var(--bs-body-bg);
+
+        @include media-breakpoint-down(lg) {
+          height: 650px;
+        }
+
+        @include media-breakpoint-down(md) {
+          height: 550px;
+        }
+
+        @include media-breakpoint-down(sm) {
+          height: 450px;
+        }
+      }
+    }
+  }
+
+  // Quick View Premium - Redesigned for better look
+  .resume-quick-view-premium {
+    .quick-view-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .premium-section-card {
+        position: relative;
+        background: var(--bs-body-bg);
+        border: 1px solid var(--bs-border-color);
+        border-radius: 12px;
+        padding: 24px;
+        transition: all 0.3s ease;
+
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          width: 4px;
+          background: var(--bs-primary);
+          border-radius: 12px 0 0 12px;
+          opacity: 0;
+          transition: opacity 0.3s ease;
+        }
+
+        &:hover {
+          border-color: var(--bs-primary);
+          box-shadow: 0 4px 16px rgba(var(--bs-primary-rgb), 0.15);
+          transform: translateX(4px);
+
+          &::before {
+            opacity: 1;
+          }
+
+          .card-header h3 {
+            color: var(--bs-primary);
+          }
+        }
+
+        .card-header {
+          display: flex;
+          align-items: center;
+          gap: 12px;
+          margin-bottom: 16px;
+
+          .section-number {
+            width: 32px;
+            height: 32px;
+            background: var(--bs-secondary-bg);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.875rem;
+            color: var(--bs-primary);
+            flex-shrink: 0;
+          }
+
+          h3 {
+            margin: 0;
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--bs-heading-color);
+            flex: 1;
+            transition: color 0.3s ease;
+          }
+        }
+
+        .card-body {
+          color: var(--bs-body-color);
+          line-height: 1.7;
+          font-size: 0.9rem;
+          padding-left: 44px;
+
+          @include media-breakpoint-down(sm) {
+            padding-left: 0;
+          }
+
+          strong {
+            color: var(--bs-heading-color);
+            font-weight: 600;
+          }
+
+          ul {
+            padding-left: 20px;
+            margin: 12px 0 0 0;
+            list-style: none;
+
+            li {
+              margin-bottom: 10px;
+              position: relative;
+              padding-left: 20px;
+
+              &::before {
+                content: "▸";
+                position: absolute;
+                left: 0;
+                color: var(--bs-primary);
+                font-weight: bold;
+              }
+            }
+          }
+
+          br {
+            display: block;
+            margin: 10px 0;
+            content: "";
+          }
+
+          p {
+            margin: 0 0 12px 0;
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Animations
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.1) rotate(180deg);
+    opacity: 0.5;
+  }
+}
+
+@keyframes borderGlow {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
