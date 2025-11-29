@@ -36,8 +36,12 @@
             "jsonPath": "/data/sections/experience.json",
             "faIcon": "fa-solid fa-briefcase"
         },
-
-
+        {
+            "id": "resume",
+            "categoryId": "background",
+            "jsonPath": "/data/sections/resume.json",
+            "faIcon": "fa-solid fa-file-pdf"
+        },
         {
             "id": "updates",
             "categoryId": "more",

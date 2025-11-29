@@ -1,61 +1,70 @@
 {
-    "title": {
-        "locales": {
-            "en": {
-                "title_short": "Resume",
-                "title_short_nav": "Resume",
-                "title_long_prefix": "My Professional",
-                "title_long": "{{Resume}}"
-            }
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Resume",
+        "title_short_nav": "Resume",
+        "title_long_prefix": "My",
+        "title_long": "{{Resume}}"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleResumeEnhanced",
+      "locales": {
+        "en": {
+          "title": "My Resume"
         }
-    },
-    "articles": [
+      },
+      "items": [
         {
-            "id": 1,
-            "component": "ArticleResume",
-            "locales": {
-                "en": {
-                    "title": "My Resume"
-                }
-            },
-            "items": [
-                {
-                    "id": 1,
-                    "locales": {
-                        "en": {
-                            "title": "Skills",
-                            "text": "ReactJS, Node.js, TypeScript, SCSS, Chakra UI"
-                        }
-                    }
-                },
-                {
-                    "id": 2,
-                    "locales": {
-                        "en": {
-                            "title": "Projects",
-                            "text": "Portfolio Website, Quiz App, IoT Tracker"
-                        }
-                    }
-                },
-                {
-                    "id": 3,
-                    "locales": {
-                        "en": {
-                            "title": "Experience",
-                            "text": "Frontend Developer at XYZ, Internship at ABC"
-                        }
-                    }
-                },
-                {
-                    "id": 4,
-                    "locales": {
-                        "en": {
-                            "title": "Certifications",
-                            "text": "AI/ML Bootcamp, LaTeX Training"
-                        }
-                    }
-                }
-            ]
+          "id": 1,
+          "locales": {
+            "en": {
+              "title": "Professional Summary",
+              "text": "Passionate Frontend Developer with expertise in React.js, UI/UX design, and modern web technologies. Experienced in building responsive, user-friendly applications."
+            }
+          }
+        },
+        {
+          "id": 2,
+          "locales": {
+            "en": {
+              "title": "Technical Skills",
+              "text": "<strong>Frontend:</strong> React.js, JavaScript, TypeScript<br><strong>Styling:</strong> SCSS, Tailwind CSS, Bootstrap, Chakra UI<br><strong>Tools:</strong> Git, Vite, Figma, Adobe XD<br><strong>Other:</strong> UI/UX Design, Responsive Design, Web Performance"
+            }
+          }
+        },
+        {
+          "id": 3,
+          "locales": {
+            "en": {
+              "title": "Experience",
+              "text": "<strong>Frontend Developer Intern</strong><br>Danfe Solution | July 2025 - October 2025<br>• Developed responsive UI components using React.js<br>• Collaborated with design team on UI/UX implementation<br>• Maintained code quality and design consistency"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "locales": {
+            "en": {
+              "title": "Education",
+              "text": "<strong>Bachelor's in Computer Science</strong><br>Khwopa Engineering College<br>Expected Graduation: 2026"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "locales": {
+            "en": {
+              "title": "Projects",
+              "text": "<strong>KamSter</strong> - Task Management System (UI/UX Designer & Frontend Developer)"
+            }
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
