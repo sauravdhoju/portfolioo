@@ -7,7 +7,7 @@
 
   // Premium Header with Gradient - Using project colors
   .resume-premium-header {
-    background: linear-gradient(135deg, var(--bs-primary) 0%, lighten(#e0b089, 10%) 100%);
+    background: #000000;
     border-radius: 12px;
     padding: 20px 24px;
     margin-bottom: 24px;
@@ -80,7 +80,7 @@
 
         h2 {
           margin: 0;
-          color: white;
+          color: rgb(0, 0, 0);
           font-size: 1.25rem;
           font-weight: 600;
           margin-bottom: 2px;
@@ -173,7 +173,7 @@
           left: 0;
           width: 100%;
           height: 100%;
-          background: linear-gradient(135deg, var(--bs-primary) 0%, #667eea 100%);
+          background: linear-gradient(135deg, var(--bs-primary) 0%, rgba(var(--bs-primary-rgb), 0.35) 100%);
           opacity: 0;
           transition: opacity 0.4s ease;
           z-index: 0;
