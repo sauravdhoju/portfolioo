@@ -86,7 +86,11 @@ export default class ArticleDataWrapper {
     _parseItems(rawData, language, theme) {
         const rawItems = rawData.items || []
         return rawItems.map((rawItem, key) => {
-            return new ArticleItemDataWrapper(this, rawItem, language, theme, key + 1)
+            const fallbackId = key + 1
+            const preferredId = Number(rawItem?.id)
+            const wrapperId = Number.isFinite(preferredId) ? preferredId : fallbackId
+
+            return new ArticleItemDataWrapper(this, rawItem, language, theme, wrapperId)
         })
     }
 

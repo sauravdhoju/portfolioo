@@ -138,7 +138,8 @@ export default class ArticleItemDataWrapper {
         if(!rawPreview)
             return {}
 
-        const links = rawPreview["links"].map(rawLink => {
+        const rawLinks = Array.isArray(rawPreview["links"]) ? rawPreview["links"] : []
+        const links = rawLinks.map(rawLink => {
             return this._parseLink(rawLink, language)
         })
 
