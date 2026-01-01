@@ -599,7 +599,16 @@
                                 "faIcon": "fa-brands fa-github"
                             }
                         ],
-                        "screenshots": [],
+                        "screenshots": [
+                            "images/pictures/NewaSayQ/1.png",
+                            "images/pictures/NewaSayQ/2.png",
+                            "images/pictures/NewaSayQ/3.png",
+                            "images/pictures/NewaSayQ/4.png",
+                            "images/pictures/NewaSayQ/5.png",
+                            "images/pictures/NewaSayQ/6.png",
+                            "images/pictures/NewaSayQ/7.png",
+                            "images/pictures/NewaSayQ/8.png"
+                        ],
                         "screenshotsAspectRatio": "16:9"
                     },
                     "locales": {
