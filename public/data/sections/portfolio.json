@@ -581,7 +581,41 @@
                             ]
                         }
                     }
-                }
+                },
+                {
+                    "id": 16,
+                    "categoryId": "category_utilities",
+                    "img": "images/pictures/portfolio-project-logo-3.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/nimeshakya/sayq-newa",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "16:9"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Newa:SayQ – Nepali Language Learning App",
+                            "text": "A <b>language learning application</b> focused on teaching the NepalBhasa (Newa) language. Built using <b>React </b> for cross-platform mobile support. Features interactive  quizzes to help users learn effectively.",
+                            "tags": [
+                                "React",
+                                "JavaScript",
+                                "TypeScript",
+                                "SCSS",
+                                "Python"
+                            ]
+                        }
+                    }
+                },
             ]
         }
     ]
