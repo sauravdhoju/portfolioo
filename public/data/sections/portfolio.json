@@ -584,7 +584,7 @@
                 },
                 {
                     "id": 16,
-                    "categoryId": "category_utilities",
+                    "categoryId": "category_web",
                     "img": "images/pictures/portfolio-project-logo-3.png",
                     "faIcon": "",
                     "faIconColors": {
@@ -615,7 +615,7 @@
                             ]
                         }
                     }
-                },
+                }
             ]
         }
     ]
