@@ -20,7 +20,39 @@
             },
             "items": [
                 {
-                    "id": 3,
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-users",
+                    "faIconColors": {
+                        "bg": "#2c3e50",
+                        "fill": "#ecf0f1"
+                    },
+                    "dateStart": {
+                        "year": 2022,
+                        "month": 6
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Student Representative",
+                            "province": "Liwali-08, Bhaktapur",
+                            "country": "Nepal",
+                            "institution": "Khwopa Engineering College",
+                            "text": "Selected as a student representative for the Department of Computer Engineering. Acted as a facilitator between students and faculty to address academic and welfare concerns, coordinated departmental events, and contributed to policy discussions that improved student life.",
+                            "list": [],
+                            "tags": [
+                                "Leadership",
+                                "Communication",
+                                "Student Advocacy"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
                     "img": "",
                     "faIcon": "fa-solid fa-robot",
                     "faIconColors": {
@@ -56,39 +88,7 @@
                     }
                 },
                 {
-                    "id": 2,
-                    "img": "",
-                    "faIcon": "fa-solid fa-users",
-                    "faIconColors": {
-                        "bg": "#2c3e50",
-                        "fill": "#ecf0f1"
-                    },
-                    "dateStart": {
-                        "year": 2022,
-                        "month": 6
-                    },
-                    "dateEnd": {
-                        "year": 2024,
-                        "month": 5
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Student Representative",
-                            "province": "Liwali-08, Bhaktapur",
-                            "country": "Nepal",
-                            "institution": "Khwopa Engineering College",
-                            "text": "Selected as a student representative for the Department of Computer Engineering. Acted as a facilitator between students and faculty to address academic and welfare concerns, coordinated departmental events, and contributed to policy discussions that improved student life.",
-                            "list": [],
-                            "tags": [
-                                "Leadership",
-                                "Communication",
-                                "Student Advocacy"
-                            ]
-                        }
-                    }
-                },
-                {
-                    "id": 1,
+                    "id": 3,
                     "img": "",
                     "faIcon": "fa-solid fa-laptop-code",
                     "faIconColors": {
@@ -132,13 +132,17 @@
                         "bg": "#2980b9",
                         "fill": "#ecf0f1"
                     },
-                    "dateStart": {
-                        "year": 2025,
-                        "month": 11,
-                        "day": 1
-                    },
-                    "dateEnd": {
-                        "now": true
+                    "date": {
+                        "startDate": {
+                            "year": 2025,
+                            "month": 11,
+                            "day": 1
+                        },
+                        "endDate": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 1
+                        }
                     },
                     "locales": {
                         "en": {
@@ -154,6 +158,45 @@
                                 "JavaScript",
                                 "UI/UX",
                                 "Web Development",
+                                "Responsive Design"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#2980b9",
+                        "fill": "#ecf0f1"
+                    },
+                    "dateStart": {
+                        "year": 2026,
+                        "month": 7,
+                        "day": 1
+                    },
+                    "dateEnd": {
+                        "now": true
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Full Stack Developer – Sigma Nepal Pvt. Ltd.",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Sigma Nepal Pvt. Ltd.",
+                            "text": "Currently working as a Full Stack Developer at Sigma Nepal Pvt. Ltd. Developing and maintaining scalable web applications across both frontend and backend. Building responsive user interfaces with React, developing RESTful APIs, integrating databases, collaborating with cross-functional teams, and contributing to performance optimization, clean code practices, and the delivery of reliable, user-focused software solutions.",
+                            "list": [],
+                            "tags": [
+                                "React",
+                                "TypeScript",
+                                "Node.js",
+                                "Express.js",
+                                "MongoDB",
+                                "REST API",
+                                "Full Stack Development",
+                                "JavaScript",
+                                "Git",
                                 "Responsive Design"
                             ]
                         }
