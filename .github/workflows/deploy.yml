@@ -16,19 +16,26 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Setup pnpm
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       # Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
+          cache: 'pnpm'
 
       # Install dependencies
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       # Build the project
       - name: Build project
-        run: npm run build
+        run: pnpm build
 
       # Deploy to GitHub pages
       - name: Deploy to GitHub pages
@@ -36,3 +43,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
+          cname: sauravdhoju.com.np
+          force_orphan: true
