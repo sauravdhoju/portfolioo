@@ -139,16 +139,16 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Launched my {{personal website!}}",
+                            "title": "Launched my {{personal website}}",
                             "province": "Bagmati",
                             "country": "Nepal",
                             "institution": "",
-                            "text": "I’m excited to announce the launch of my [[personal website]]! 🎉 This platform is a space where I can share my projects, blog posts, and insights into the world of technology and development. It’s been a labor of love, and I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
+                            "text": "I launched my personal portfolio website to showcase my projects, technical skills, and development journey. The website serves as a central hub for my portfolio, blog, and professional profile.",
                             "list": [
-                                "Portfolio showcasing my projects and contributions",
-                                "Blog with articles on technology, coding, and personal experiences",
-                                "Contact form for inquiries and collaborations",
-                                "Links to my social media profiles and GitHub"
+                                "Responsive portfolio website",
+                                "Project showcase",
+                                "Technical blog",
+                                "Contact page and social links"
                             ]
                         }
                     }
@@ -156,8 +156,12 @@
                 {
                     "id": 2,
                     "date": {
-                        "year": 2025,
-                        "month": 8
+                        "startDate": {
+                            "year": 2025,
+                            "month": 8,
+                            "day": 1
+                        },
+                        "endDate": {}
                     },
                     "preview": {
                         "links": [
@@ -173,16 +177,16 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Currently involved in developing the {{Futsala}} (Futsal Management System) project",
+                            "title": "Started building {{Futsala}} (Futsal Management System)",
                             "province": "Bagmati",
                             "country": "Nepal",
                             "institution": "Asymptoads",
-                            "text": "I am currently involved in the development of the [[Futsala project]], also known as the [[Futsal Management System]], as a UI/UX Designer and Frontend Developer. This project is being developed with my college friends under the team name Asymptoads, where we are focusing on creating an intuitive and seamless digital platform for managing futsal activities.",
+                            "text": "Together with my college teammates under Asymptoads, I started developing Futsala, a modern Futsal Management System focused on simplifying court bookings, tournament management, and administrative operations.",
                             "list": [
-                                "Designing intuitive and user-friendly UI/UX for the platform",
-                                "Developing responsive frontend components",
-                                "Collaborating with team members on feature design and implementation",
-                                "Ensuring consistency and usability across different modules"
+                                "UI/UX Design",
+                                "Frontend Development",
+                                "React.js",
+                                "Team Collaboration"
                             ]
                         }
                     }
@@ -198,7 +202,7 @@
                         "endDate": {
                             "year": 2025,
                             "month": 10,
-                            "day": 28
+                            "day": 27
                         }
                     },
                     "preview": {
@@ -209,16 +213,16 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Successfully Completed React Frontend Internship at Danfe Solution",
+                            "title": "Completed my {{React Frontend Internship}} at Danfe Solution",
                             "province": "Bagmati",
                             "country": "Nepal",
                             "institution": "Danfe Solution",
-                            "text": "I have successfully completed my React Frontend Development internship at Danfe Solution, which took place from July 27, 2025 to October 27, 2025. During this period, I worked closely with the Frontend team to design and develop clean, responsive, and user-friendly interfaces. This internship provided me with valuable hands-on experience in modern web development and effective collaboration within a professional environment.",
+                            "text": "Successfully completed my React Frontend Development internship at Danfe Solution, where I gained practical experience building responsive web applications, collaborating with experienced developers, and working in a professional software development environment.",
                             "list": [
-                                "Developing user interfaces using React.js",
-                                "Contributing to UI/UX design discussions and implementation",
-                                "Collaborating with senior developers in an agile workflow",
-                                "Enhancing component reusability and maintaining design consistency"
+                                "React.js Development",
+                                "Responsive UI Development",
+                                "Reusable Components",
+                                "Agile Team Collaboration"
                             ]
                         }
                     }
@@ -231,7 +235,11 @@
                             "month": 10,
                             "day": 28
                         },
-                        "endDate": null
+                        "endDate": {
+                            "year": 2026,
+                            "month": 4,
+                            "day": 30
+                        }
                     },
                     "preview": {
                         "links": [],
@@ -241,17 +249,88 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Currently Working As Junior Frontend Developer at Danfe Solution",
+                            "title": "Promoted to {{Junior Frontend Developer}} at Danfe Solution",
                             "province": "Bagmati",
                             "country": "Nepal",
                             "institution": "Danfe Solution",
-                            "text": "After successfully completing my React Frontend Development internship at Danfe Solution, I have continued my journey with the company as a Junior Frontend Developer starting from October 28, 2025. In this role, I work closely with the development team to build, optimize, and maintain scalable and user-friendly web interfaces. I continue to expand my skills in frontend technologies while contributing to real-world projects in a professional and collaborative environment.",
+                            "text": "After successfully completing my React Frontend Development internship, I was offered a full-time position as a Junior Frontend Developer at Danfe Solution. In this role, I contributed to production-level web applications, collaborated with designers and backend developers, and enhanced my expertise in building scalable, responsive, and maintainable React applications.",
                             "list": [
-                                "Building and maintaining responsive user interfaces using React.js",
-                                "Writing clean, reusable, and maintainable frontend components",
-                                "Collaborating with designers and backend developers to implement new features",
-                                "Optimizing application performance and improving UI/UX consistency",
-                                "Participating in code reviews and agile development processes"
+                                "Developed production-ready React applications",
+                                "Built reusable frontend components",
+                                "Collaborated with UI/UX and backend teams",
+                                "Improved application performance",
+                                "Worked in an Agile development environment"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "date": {
+                        "startDate": {
+                            "year": 2026,
+                            "month": 4,
+                            "day": 1
+                        },
+                        "endDate": {
+                            "year": 2026,
+                            "month": 4,
+                            "day": 1
+                        }
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Successfully completed my {{journey at Danfe Solution}}",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "After nearly a year with Danfe Solution—from my internship through my role as a Junior Frontend Developer—I successfully completed an important chapter of my professional journey. During this time, I gained valuable real-world experience, improved my technical expertise, strengthened my teamwork and communication skills, and contributed to multiple production projects. I am grateful to everyone at Danfe Solution for their mentorship, trust, and support throughout this journey.",
+                            "list": [
+                                "Nearly one year of professional experience",
+                                "Worked on real client projects",
+                                "Strengthened React and frontend expertise",
+                                "Collaborated with cross-functional teams",
+                                "Built a strong foundation for Full Stack Development"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "date": {
+                        "startDate": {
+                            "year": 2026,
+                            "month": 7,
+                            "day": 1
+                        },
+                        "endDate": {}
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Joined {{Sigma Nepal Pvt. Ltd.}} as a Full Stack Developer",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Sigma Nepal Pvt. Ltd.",
+                            "text": "I am excited to begin a new chapter in my career as a Full Stack Developer at Sigma Nepal Pvt. Ltd. In this role, I work across both frontend and backend technologies to build scalable web applications, develop APIs, integrate databases, and collaborate with talented teams to deliver high-quality software solutions.",
+                            "list": [
+                                "Full Stack Development",
+                                "Frontend & Backend Engineering",
+                                "REST API Development",
+                                "Database Integration",
+                                "Scalable Web Applications",
+                                "Continuous Learning & Growth"
                             ]
                         }
                     }
