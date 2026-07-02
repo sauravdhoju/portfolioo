@@ -1,0 +1,341 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-tablet-screen-button",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "00",
+                            "text": "Apps Published"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-star",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "05",
+                            "text": "Stars on GitHub"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "00",
+                            "text": "Coffees consumed"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "1,000,000+",
+                            "text": "Lines of code"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": {
+                    "title": "Quick {{Facts}}"
+                }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "date": {
+                        "startDate": {
+                            "year": 2025,
+                            "month": 6,
+                            "day": 15
+                        },
+                        "endDate": {}
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://sauravdhoju.com.np",
+                                "tooltipString": "open_website",
+                                "faIcon": "fa-solid fa-link"
+                            },
+                            {
+                                "href": "",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Launched my {{personal website}}",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "",
+                            "text": "I launched my personal portfolio website to showcase my projects, technical skills, and development journey. The website serves as a central hub for my portfolio, blog, and professional profile.",
+                            "list": [
+                                "Responsive portfolio website",
+                                "Project showcase",
+                                "Technical blog",
+                                "Contact page and social links"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "date": {
+                        "startDate": {
+                            "year": 2025,
+                            "month": 8,
+                            "day": 1
+                        },
+                        "endDate": {}
+                    },
+                    "preview": {
+                        "links": [
+                            {
+                                "href": "https://github.com/Asymptoads/Futsal",
+                                "tooltipString": "see_on_github",
+                                "faIcon": "fa-brands fa-github"
+                            }
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Started building {{Futsala}} (Futsal Management System)",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Asymptoads",
+                            "text": "Together with my college teammates under Asymptoads, I started developing Futsala, a modern Futsal Management System focused on simplifying court bookings, tournament management, and administrative operations.",
+                            "list": [
+                                "UI/UX Design",
+                                "Frontend Development",
+                                "React.js",
+                                "Team Collaboration"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "date": {
+                        "startDate": {
+                            "year": 2025,
+                            "month": 7,
+                            "day": 28
+                        },
+                        "endDate": {
+                            "year": 2025,
+                            "month": 10,
+                            "day": 27
+                        }
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Completed my {{React Frontend Internship}} at Danfe Solution",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "Successfully completed my React Frontend Development internship at Danfe Solution, where I gained practical experience building responsive web applications, collaborating with experienced developers, and working in a professional software development environment.",
+                            "list": [
+                                "React.js Development",
+                                "Responsive UI Development",
+                                "Reusable Components",
+                                "Agile Team Collaboration"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "date": {
+                        "startDate": {
+                            "year": 2025,
+                            "month": 10,
+                            "day": 28
+                        },
+                        "endDate": {
+                            "year": 2026,
+                            "month": 4,
+                            "day": 30
+                        }
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Promoted to {{Junior Frontend Developer}} at Danfe Solution",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "After successfully completing my React Frontend Development internship, I was offered a full-time position as a Junior Frontend Developer at Danfe Solution. In this role, I contributed to production-level web applications, collaborated with designers and backend developers, and enhanced my expertise in building scalable, responsive, and maintainable React applications.",
+                            "list": [
+                                "Developed production-ready React applications",
+                                "Built reusable frontend components",
+                                "Collaborated with UI/UX and backend teams",
+                                "Improved application performance",
+                                "Worked in an Agile development environment"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "date": {
+                        "startDate": {
+                            "year": 2026,
+                            "month": 4,
+                            "day": 1
+                        },
+                        "endDate": {
+                            "year": 2026,
+                            "month": 4,
+                            "day": 1
+                        }
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Successfully completed my {{journey at Danfe Solution}}",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "After nearly a year with Danfe Solution—from my internship through my role as a Junior Frontend Developer—I successfully completed an important chapter of my professional journey. During this time, I gained valuable real-world experience, improved my technical expertise, strengthened my teamwork and communication skills, and contributed to multiple production projects. I am grateful to everyone at Danfe Solution for their mentorship, trust, and support throughout this journey.",
+                            "list": [
+                                "Nearly one year of professional experience",
+                                "Worked on real client projects",
+                                "Strengthened React and frontend expertise",
+                                "Collaborated with cross-functional teams",
+                                "Built a strong foundation for Full Stack Development"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "date": {
+                        "startDate": {
+                            "year": 2026,
+                            "month": 7,
+                            "day": 1
+                        },
+                        "endDate": {}
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Joined {{Sigma Nepal Pvt. Ltd.}} as a Full Stack Developer",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Sigma Nepal Pvt. Ltd.",
+                            "text": "I am excited to begin a new chapter in my career as a Full Stack Developer at Sigma Nepal Pvt. Ltd. In this role, I work across both frontend and backend technologies to build scalable web applications, develop APIs, integrate databases, and collaborate with talented teams to deliver high-quality software solutions.",
+                            "list": [
+                                "Full Stack Development",
+                                "Frontend & Backend Engineering",
+                                "REST API Development",
+                                "Database Integration",
+                                "Scalable Web Applications",
+                                "Continuous Learning & Growth"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

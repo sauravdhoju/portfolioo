@@ -1,0 +1,208 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Experience",
+                "title_short_nav": "Experience",
+                "title_long_prefix": "Summary of my",
+                "title_long": "{{Work}} Experience"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleTimeline",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "dateStart"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-users",
+                    "faIconColors": {
+                        "bg": "#2c3e50",
+                        "fill": "#ecf0f1"
+                    },
+                    "dateStart": {
+                        "year": 2022,
+                        "month": 6
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 5
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Student Representative",
+                            "province": "Liwali-08, Bhaktapur",
+                            "country": "Nepal",
+                            "institution": "Khwopa Engineering College",
+                            "text": "Selected as a student representative for the Department of Computer Engineering. Acted as a facilitator between students and faculty to address academic and welfare concerns, coordinated departmental events, and contributed to policy discussions that improved student life.",
+                            "list": [],
+                            "tags": [
+                                "Leadership",
+                                "Communication",
+                                "Student Advocacy"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-robot",
+                    "faIconColors": {
+                        "bg": "#2980b9",
+                        "fill": "#ecf0f1"
+                    },
+                    "dateStart": {
+                        "year": 2024,
+                        "month": 3,
+                        "day": 7
+                    },
+                    "dateEnd": {
+                        "year": 2024,
+                        "month": 3,
+                        "day": 7
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Mentor – Robotics Competition",
+                            "province": "Bhaktapur",
+                            "country": "Nepal",
+                            "institution": "Khwopa Engineering College",
+                            "text": "Contributed as a mentor for a participating team in the Line Following Robot and Robostacle Run competition, held on 7 March 2024. The event was jointly conducted by Khwopa Engineering College, Khwopa College of Engineering, and Innov Nepal. Provided guidance on robot design, sensor integration, and programming logic to enhance performance and problem-solving during the competition.",
+                            "list": [],
+                            "tags": [
+                                "Mentorship",
+                                "Robotics",
+                                "Team Support",
+                                "Embedded Systems",
+                                "Problem Solving"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "#2980b9",
+                        "fill": "#ecf0f1"
+                    },
+                    "date": {
+                        "startDate": {
+                            "year": 2025,
+                            "month": 7,
+                            "day": 28
+                        },
+                        "endDate": {
+                            "year": 2025,
+                            "month": 10,
+                            "day": 28
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Frontend Intern – Danfe Solution",
+                            "province": "Nepal",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "Completed my 3 month internship as a React Frontend Development Intern at Danfe Solution from July 28, 2025, to October 28, 2025. During this time, I contributed to UI/UX implementations and collaborated with the design team to create responsive and accessible user interfaces.",
+                            "list": [],
+                            "tags": [
+                                "ReactJS",
+                                "Frontend Development",
+                                "UI/UX",
+                                "Web Development"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {
+                        "bg": "#2980b9",
+                        "fill": "#ecf0f1"
+                    },
+                    "date": {
+                        "startDate": {
+                            "year": 2025,
+                            "month": 11,
+                            "day": 1
+                        },
+                        "endDate": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 1
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Junior Frontend Developer – Danfe Solution",
+                            "province": "Nepal",
+                            "country": "Nepal",
+                            "institution": "Danfe Solution",
+                            "text": "Currently working as a Junior Frontend Developer at Danfe Solution. Responsible for developing and maintaining responsive user interfaces, collaborating with the UI/UX design team, and implementing modern React-based frontend solutions. Contributing to performance optimization, code quality improvements, and delivering user-friendly web experiences.",
+                            "list": [],
+                            "tags": [
+                                "ReactJS",
+                                "Frontend Development",
+                                "JavaScript",
+                                "UI/UX",
+                                "Web Development",
+                                "Responsive Design"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-code",
+                    "faIconColors": {
+                        "bg": "#2980b9",
+                        "fill": "#ecf0f1"
+                    },
+                    "dateStart": {
+                        "year": 2026,
+                        "month": 7,
+                        "day": 1
+                    },
+                    "dateEnd": {
+                        "now": true
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Full Stack Developer – Sigma Nepal Pvt. Ltd.",
+                            "province": "Bagmati",
+                            "country": "Nepal",
+                            "institution": "Sigma Nepal Pvt. Ltd.",
+                            "text": "Currently working as a Full Stack Developer at Sigma Nepal Pvt. Ltd. Developing and maintaining scalable web applications across both frontend and backend. Building responsive user interfaces with React, developing RESTful APIs, integrating databases, collaborating with cross-functional teams, and contributing to performance optimization, clean code practices, and the delivery of reliable, user-focused software solutions.",
+                            "list": [],
+                            "tags": [
+                                "React",
+                                "TypeScript",
+                                "Node.js",
+                                "Express.js",
+                                "MongoDB",
+                                "REST API",
+                                "Full Stack Development",
+                                "JavaScript",
+                                "Git",
+                                "Responsive Design"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
